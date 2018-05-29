@@ -8,7 +8,7 @@ headers = {
     'Host': 'jwxt.gdufe.edu.cn',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'}  # UA 使得服务器能够识别客户使用的操作系统及版本、CPU 类型、浏览器及版本、浏览器渲染引擎、浏览器语言、浏览器插件等
 geturl = 'http://jwxt.gdufe.edu.cn/jsxsd/xskb/xskb_list.do'  # 需要爬取的登录之后的页面
-datas = {'USERNAME': '16251104218', 'PASSWORD': 'zitong233'}
+datas = {'USERNAME': 'xx', 'PASSWORD': 'xx'}
 
 s = requests.session()
 Post = s.post(loginurl, data=datas, headers=headers)
